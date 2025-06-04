@@ -45,7 +45,7 @@ npm run dev
 
 Make sure your local videos are stored in src/assets/Shorts/ and imported properly.
 
-🎮 Controls
+**## 🎮 Controls**
 Scroll Up/Down → Navigate between videos
 
 Like Button → Toggle likes
@@ -54,7 +54,7 @@ Comment Button / More Info → Open drawer with more info
 
 Close Button → Dismiss the drawer
 
-📦 The app uses a custom hook useVideoStats(videoId). It tracks:
+**## 📦 The app uses a custom hook useVideoStats(videoId). It tracks:**
 
 Likes count
 

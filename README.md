@@ -27,22 +27,6 @@ A simple fullscreen vertical video feed app built with **React**, **Tailwind CSS
 
 ---
 
-## 🗂️ Project Structure
-
-src/
-├── assets/
-│ └── Shorts/ # Local video files
-├── components/
-│ ├── VideoPlayer.jsx # Main video player with overlays
-│ └── VideoDrawer.jsx # Bottom sheet for info/comments
-├── hooks/
-│ └── useVideoStats.js # Simulated API-like hook
-├── App.jsx # Main component (manages feed)
-└── index.js
-
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repo
@@ -71,16 +55,13 @@ Comment Button / More Info → Open drawer with more info
 
 Close Button → Dismiss the drawer
 
-📦 Simulated Backend
-The app uses a custom hook useVideoStats(videoId) to simulate a backend. It tracks:
+📦 The app uses a custom hook useVideoStats(videoId). It tracks:
 
 Likes count
 
 Comments count
 
 Like status (liked/unliked)
-
-You can extend this hook to connect with an actual backend (Firebase, Supabase, MongoDB etc.)
 
 
 

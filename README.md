@@ -27,23 +27,22 @@ A simple fullscreen vertical video feed app built with **React**, **Tailwind CSS
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Getting Started
 
-### 1. Clone the Repo
+### Prerequisites
+
+- Node.js ≥ 14
+- npm / yarn
+- Git
+
+### Installation
 
 ```bash
-git clone https://github.com/your-username/video-feed-app.git
+git clone https://github.com/yourusername/video-feed-app.git
 cd video-feed-app
-2. Install Dependencies
-bash
-Copy
-Edit
 npm install
-3. Start Development Server
-bash
-Copy
-Edit
 npm run dev
+
 Make sure your local videos are stored in src/assets/Shorts/ and imported properly.
 
 🎮 Controls

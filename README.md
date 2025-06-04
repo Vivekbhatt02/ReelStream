@@ -1,6 +1,12 @@
-# 🎬 Vertical Video Feed App
+# 🎬 ReelStream
 
-A simple fullscreen vertical video feed app built with **React**, **Tailwind CSS**, and **Framer Motion**. Inspired by Instagram Reels or TikTok — this app lets users scroll through videos, like them, comment, and view more info in a sliding drawer.
+A video feed app built with **React**, **Tailwind CSS**, and **Framer Motion**. Inspired by Instagram Reels or TikTok — this app lets users scroll through videos, like them, comment, and view more info in a sliding drawer.
+
+ReelStream is a modern, mobile-first web application that mimics the behavior of popular short-form video platforms like Instagram Reels and TikTok. Built using React.js and styled with Tailwind CSS, the app delivers a smooth and immersive user experience with vertical, fullscreen videos and interactive overlays.
+
+Users can scroll through a stack of videos — one at a time — and interact with each video via action buttons (Like, Comment, Share). An optional “More Info” drawer can be expanded to view additional details like the video title, description, and a thumbnail reference. Transitions and animations are powered by Framer Motion, providing a seamless and engaging UI flow.
+
+This project showcases a responsive design, support for both online and locally stored video assets, and clean, modular code structure, making it suitable for both production use cases and portfolio demonstrations.
 
 ---
 
@@ -44,8 +50,8 @@ npm install
 npm run dev
 
 Make sure your local videos are stored in src/assets/Shorts/ and imported properly.
-
-**## 🎮 Controls**
+```
+## 🎮 Controls
 Scroll Up/Down → Navigate between videos
 
 Like Button → Toggle likes
@@ -54,14 +60,13 @@ Comment Button / More Info → Open drawer with more info
 
 Close Button → Dismiss the drawer
 
-**## 📦 The app uses a custom hook useVideoStats(videoId). It tracks:**
+## 📦 The app uses a custom hook useVideoStats(videoId). It tracks:
 
 Likes count
 
 Comments count
 
 Like status (liked/unliked)
-
 
 
 # React + Vite
